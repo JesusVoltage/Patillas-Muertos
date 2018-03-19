@@ -1,0 +1,82 @@
+.contenedor{
+  background-color: black;
+}
+
+.margin{
+  margin: 20px;
+}
+
+.icon{
+  transition: 0.5s;
+  transition-duration: 1s; 
+}
+
+.icon:hover{
+  transform: translateY(1px); 
+  transform: scale(0.8);
+}
+
+
+
+footer{
+  color: white;
+}
+footer a{
+  color: lightgrey;
+}
+footer a:hover{
+  color: lightgrey;
+  opacity: 0.5;
+}
+
+.footer-bottom{
+  background: black;
+  padding: 2em;
+}
+.footer-top{
+  background: black;  
+}
+.footer-middle{
+  background: black;
+  padding-top: 2em;
+  color: grey;
+}
+.subnavigation-container{
+  background: #e6ffff;
+}
+.subnavigation .nav-link{
+  color: grey;
+  font-weight: bold;
+}
+.subnavigation-container{
+  text-align: center;
+}
+.subnavigation-container .navbar{
+  display: inline-block;
+  margin-bottom: -6px;
+}
+.col-subnav a{
+  padding: 1rem 1rem;
+  color: grey;
+  font-weight: bold;
+}
+.col-subnav .active{
+  border-top:5px solid orange;
+ background: lightgrey;
+  color: black;
+}
+
+.fperfil{
+	width: 52%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 50%;
+  	padding-bottom: 5%;
+  	transition: 0.3s;
+
+}
+.fperfil:hover{
+	transform: translateY(1px); 
+	transform: scale(1.2);
+}
