@@ -1,3 +1,16 @@
+
+.img-concierto{
+  border-radius: 5%;
+}
+
+.padin{
+  padding: 50px;
+}
+
+.blanco{
+  background-color: white;
+}
+
 .contenedor{
   background-color: black;
 }
@@ -16,7 +29,9 @@
   transform: scale(0.8);
 }
 
-
+body{
+  background-color: black;
+}
 
 footer{
   color: white;
